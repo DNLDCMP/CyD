@@ -1,0 +1,128 @@
+/** BODY **/
+body{
+    background: rgba(236, 168, 129, 0.89);  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, rgba(236, 168, 129, 0.89), #eec5af);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, rgba(236, 168, 129, 0.89), #eec5af); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+    min-height: 100%;
+}
+
+
+
+/** HEADER/NAV **/
+.barra-navegacion{
+    text-align: justify;
+    display: flex;
+}
+
+.barra-navegacion span{
+    color: rgba(239, 0, 247, 0.411);
+    text-decoration: none;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.barra-navegacion a{
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.barra-navegacion span:active {
+    color: rgb(173, 17, 179);
+    transition: 0,8s;
+}
+
+.contenedor-header{
+    padding: 10px;
+}
+
+
+
+/** MAIN **/
+.contenedor-main {
+    max-width: 1400px;
+    margin: 20px;
+    float: left;
+    margin-bottom: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.contenido h1{
+    font-family:'Source Sans Pro', sans-serif;
+    font-size: 35px;
+}
+
+.contenido p{
+    font-family: 'Bitter', serif;
+    font-size: 25px;
+    
+}
+.listitas{
+    font-family: 'Bitter', serif;
+    font-size: 18px;
+    list-style: none;
+    padding-left:0px;
+}
+.pelis{
+    width: 350px;
+    margin: 0%;
+    float: left;
+    margin-right: 30px;
+
+}
+.libritos{
+    width: 350px;
+    margin: 0%;
+    float: left;
+    margin-right: 30px;
+}
+.jueguitos{
+    width: 370px;
+    margin: 0%;
+    float: left;
+    margin-right: 30px;
+}
+
+
+
+
+/** ASIDE **/
+.sidebar{
+    float: right;
+    margin-right: 100px;
+    margin-top: 50px;
+}
+
+.actualizaciones{
+    list-style: none;
+    padding-left: 0px;
+}
+
+.actualizaciones h2{
+    font-family:'Source Sans Pro', sans-serif;
+    font-size: 35px;
+}
+
+.actualizaciones a{
+    text-decoration: none;
+    color:rgba(239, 0, 247, 0.411);
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.actualizaciones a:active {
+    color: rgb(173, 17, 179);
+    transition: 0,8s;
+}
+
+
+
+/** FOOTER **/
+.footer {
+    text-align: center;
+    clear: both;
+    padding-top: 110px;
+    margin-bottom: 0%;
+    bottom: 0px;
+}
